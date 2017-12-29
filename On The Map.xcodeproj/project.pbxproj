@@ -45,6 +45,7 @@
 		897172401FE7BDB00072FBBE /* icon_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 8971721F1FE7BDB00072FBBE /* icon_pin.png */; };
 		897172411FE7BDB00072FBBE /* icon_mapview-deselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 897172201FE7BDB00072FBBE /* icon_mapview-deselected@3x.png */; };
 		897172421FE7BDB00072FBBE /* icon_mapview-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 897172211FE7BDB00072FBBE /* icon_mapview-selected.png */; };
+		89CD93041FF5171800D632BF /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CD93031FF5171800D632BF /* Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		8971721F1FE7BDB00072FBBE /* icon_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pin.png; sourceTree = "<group>"; };
 		897172201FE7BDB00072FBBE /* icon_mapview-deselected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_mapview-deselected@3x.png"; sourceTree = "<group>"; };
 		897172211FE7BDB00072FBBE /* icon_mapview-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_mapview-selected.png"; sourceTree = "<group>"; };
+		89CD93031FF5171800D632BF /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			children = (
 				897171EE1FE71C010072FBBE /* AppDelegate.swift */,
 				897171F01FE71C010072FBBE /* ViewController.swift */,
+				89CD93031FF5171800D632BF /* Networking.swift */,
 				897171F21FE71C010072FBBE /* Main.storyboard */,
 				897171F51FE71C010072FBBE /* Assets.xcassets */,
 				897172001FE7BDB00072FBBE /* on-the-map-assets-new */,
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89CD93041FF5171800D632BF /* Networking.swift in Sources */,
 				897171F11FE71C010072FBBE /* ViewController.swift in Sources */,
 				897171EF1FE71C010072FBBE /* AppDelegate.swift in Sources */,
 			);
