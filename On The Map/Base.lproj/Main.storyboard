@@ -132,7 +132,7 @@
         <!--Map-->
         <scene sceneID="qH6-cd-gpf">
             <objects>
-                <viewController id="Dir-xL-WbB" sceneMemberID="viewController">
+                <viewController id="Dir-xL-WbB" customClass="MapClass" customModule="On_The_Map" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zw9-SH-RSm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

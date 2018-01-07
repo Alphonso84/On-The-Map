@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		897171EF1FE71C010072FBBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897171EE1FE71C010072FBBE /* AppDelegate.swift */; };
-		897171F11FE71C010072FBBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897171F01FE71C010072FBBE /* ViewController.swift */; };
+		897171F11FE71C010072FBBE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897171F01FE71C010072FBBE /* TableViewController.swift */; };
 		897171F41FE71C010072FBBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897171F21FE71C010072FBBE /* Main.storyboard */; };
 		897171F61FE71C010072FBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897171F51FE71C010072FBBE /* Assets.xcassets */; };
 		897171F91FE71C010072FBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897171F71FE71C010072FBBE /* LaunchScreen.storyboard */; };
@@ -46,13 +46,14 @@
 		897172411FE7BDB00072FBBE /* icon_mapview-deselected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 897172201FE7BDB00072FBBE /* icon_mapview-deselected@3x.png */; };
 		897172421FE7BDB00072FBBE /* icon_mapview-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 897172211FE7BDB00072FBBE /* icon_mapview-selected.png */; };
 		89C5697720018A4800F70626 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C5697620018A4800F70626 /* Model.swift */; };
+		89C569792001C0F100F70626 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C569782001C0F100F70626 /* Map.swift */; };
 		89CD93041FF5171800D632BF /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CD93031FF5171800D632BF /* Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		897171EB1FE71C010072FBBE /* On The Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "On The Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		897171EE1FE71C010072FBBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		897171F01FE71C010072FBBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		897171F01FE71C010072FBBE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		897171F31FE71C010072FBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		897171F51FE71C010072FBBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		897171F81FE71C010072FBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -91,6 +92,7 @@
 		897172201FE7BDB00072FBBE /* icon_mapview-deselected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_mapview-deselected@3x.png"; sourceTree = "<group>"; };
 		897172211FE7BDB00072FBBE /* icon_mapview-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_mapview-selected.png"; sourceTree = "<group>"; };
 		89C5697620018A4800F70626 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		89C569782001C0F100F70626 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		89CD93031FF5171800D632BF /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 		897171E21FE71C010072FBBE = {
 			isa = PBXGroup;
 			children = (
+				89C5697A2001C0FA00F70626 /* Views */,
 				897171ED1FE71C010072FBBE /* On The Map */,
 				897171EC1FE71C010072FBBE /* Products */,
 			);
@@ -125,7 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				897171EE1FE71C010072FBBE /* AppDelegate.swift */,
-				897171F01FE71C010072FBBE /* ViewController.swift */,
+				897171F01FE71C010072FBBE /* TableViewController.swift */,
 				89C5697520018A3700F70626 /* Model */,
 				89C5697420018A2100F70626 /* Networking */,
 				897171F21FE71C010072FBBE /* Main.storyboard */,
@@ -191,6 +194,14 @@
 				89C5697620018A4800F70626 /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		89C5697A2001C0FA00F70626 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89C569782001C0F100F70626 /* Map.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,8 +309,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C569792001C0F100F70626 /* Map.swift in Sources */,
 				89CD93041FF5171800D632BF /* Networking.swift in Sources */,
-				897171F11FE71C010072FBBE /* ViewController.swift in Sources */,
+				897171F11FE71C010072FBBE /* TableViewController.swift in Sources */,
 				897171EF1FE71C010072FBBE /* AppDelegate.swift in Sources */,
 				89C5697720018A4800F70626 /* Model.swift in Sources */,
 			);
