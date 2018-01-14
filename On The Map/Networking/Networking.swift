@@ -10,13 +10,14 @@ import Foundation
 import UIKit
 
 class Networking {
+    
     var ParseAppID = "QrX47CA9cyuGewLdsL7o5Eb8iug6Em8ye0dnAbIr"
     var APIKey = "QuWThTdiRmTux3YaDseUSEpUKo7aBYM737yKd4gY"
     
     //To get multiple student locations at one time, you'll want to use the following API method:
     var baseURL = "https://parse.udacity.com/parse/classes/StudentLocation"
     
-    var limit = "?limit=100"
+    var limit = "?limit=10"
     
     
     func Network() {
