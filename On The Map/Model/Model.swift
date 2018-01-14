@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 struct OnTheMap {
-    let results: [Result]
+    let results: [StudentLocation]
 }
 
 struct StudentLocation {

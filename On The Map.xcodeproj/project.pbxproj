@@ -107,10 +107,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8901661420080DF1002836E7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				897171EE1FE71C010072FBBE /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		897171E21FE71C010072FBBE = {
 			isa = PBXGroup;
 			children = (
-				89C5697A2001C0FA00F70626 /* Views */,
 				897171ED1FE71C010072FBBE /* On The Map */,
 				897171EC1FE71C010072FBBE /* Products */,
 			);
@@ -127,9 +134,9 @@
 		897171ED1FE71C010072FBBE /* On The Map */ = {
 			isa = PBXGroup;
 			children = (
-				897171EE1FE71C010072FBBE /* AppDelegate.swift */,
-				897171F01FE71C010072FBBE /* TableViewController.swift */,
 				89C5697520018A3700F70626 /* Model */,
+				89C5697A2001C0FA00F70626 /* Views */,
+				8901661420080DF1002836E7 /* Controller */,
 				89C5697420018A2100F70626 /* Networking */,
 				897171F21FE71C010072FBBE /* Main.storyboard */,
 				897171F51FE71C010072FBBE /* Assets.xcassets */,
@@ -200,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				89C569782001C0F100F70626 /* Map.swift */,
+				897171F01FE71C010072FBBE /* TableViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

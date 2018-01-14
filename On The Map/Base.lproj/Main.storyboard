@@ -103,7 +103,7 @@
         <!--List-->
         <scene sceneID="2fs-up-dep">
             <objects>
-                <viewController id="cVS-Xe-xOz" sceneMemberID="viewController">
+                <viewController id="cVS-Xe-xOz" customClass="TableViewController" customModule="On_The_Map" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Jv-50-3gz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -124,6 +124,9 @@
                         <viewLayoutGuide key="safeArea" id="Me0-LF-mts"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="List" id="QJR-7H-dya"/>
+                    <connections>
+                        <outlet property="tableView" destination="sL3-eR-Vle" id="UB6-4d-d4Y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h2V-Pd-1hd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
