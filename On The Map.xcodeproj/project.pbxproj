@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89372A2A20210EE800C3FCDF /* ParseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89372A2920210EE800C3FCDF /* ParseClient.swift */; };
+		89372A2C20210F0500C3FCDF /* ParseConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89372A2B20210F0500C3FCDF /* ParseConstants.swift */; };
 		897171EF1FE71C010072FBBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897171EE1FE71C010072FBBE /* AppDelegate.swift */; };
 		897171F11FE71C010072FBBE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897171F01FE71C010072FBBE /* TableViewController.swift */; };
 		897171F41FE71C010072FBBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897171F21FE71C010072FBBE /* Main.storyboard */; };
@@ -52,6 +54,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89372A2920210EE800C3FCDF /* ParseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseClient.swift; sourceTree = "<group>"; };
+		89372A2B20210F0500C3FCDF /* ParseConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseConstants.swift; sourceTree = "<group>"; };
 		897171EB1FE71C010072FBBE /* On The Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "On The Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		897171EE1FE71C010072FBBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		897171F01FE71C010072FBBE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +119,15 @@
 				897171EE1FE71C010072FBBE /* AppDelegate.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		89372A2820210E9300C3FCDF /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				89372A2920210EE800C3FCDF /* ParseClient.swift */,
+				89372A2B20210F0500C3FCDF /* ParseConstants.swift */,
+			);
+			path = Clients;
 			sourceTree = "<group>";
 		};
 		897171E21FE71C010072FBBE = {
@@ -201,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				89C5697620018A4800F70626 /* Model.swift */,
+				89372A2820210E9300C3FCDF /* Clients */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -322,10 +336,12 @@
 			files = (
 				89B36861200C1AA10018BF74 /* LoginViewController.swift in Sources */,
 				89C569792001C0F100F70626 /* Map.swift in Sources */,
+				89372A2A20210EE800C3FCDF /* ParseClient.swift in Sources */,
 				89CD93041FF5171800D632BF /* Networking.swift in Sources */,
 				897171F11FE71C010072FBBE /* TableViewController.swift in Sources */,
 				897171EF1FE71C010072FBBE /* AppDelegate.swift in Sources */,
 				89C5697720018A4800F70626 /* Model.swift in Sources */,
+				89372A2C20210F0500C3FCDF /* ParseConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

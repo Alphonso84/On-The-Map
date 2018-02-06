@@ -9,13 +9,4 @@
 import Foundation
 import UIKit
 
-struct OnTheMap {
-    let results: [StudentLocation]
-}
 
-struct StudentLocation {
-    let createdAt, firstName, lastName: String
-    let latitude, longitude: Double
-    let mapString, mediaURL, objectId, uniqueKey: String
-    let updatedAt: String
-}
