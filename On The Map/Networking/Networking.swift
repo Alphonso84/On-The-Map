@@ -20,7 +20,7 @@ class Networking {
     var limit = "?limit=10"
     
     
-    func Network() {
+    func getData() {
         
         
         var request = URLRequest(url: URL(string: "https://parse.udacity.com/parse/classes/StudentLocation")!)

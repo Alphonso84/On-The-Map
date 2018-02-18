@@ -11,5 +11,13 @@ import UIKit
 
 class LoginView: UIViewController {
     
+    @IBAction func loginIsPressed(_ sender: Any) {
+         Networking().getData()
+    }
+    
+    
+    override func viewDidLoad() {
+       
+    }
     
 }
